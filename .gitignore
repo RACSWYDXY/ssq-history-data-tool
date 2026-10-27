@@ -1,0 +1,26 @@
+# Generated downloads and diagnostic logs
+双色球数据/
+*.log
+*.tmp.xlsx
+*.tmp.csv
+*.tmp.txt
+
+# Python files and test caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets and large archives should not be committed
+*.xlsx
+*.csv
+*.zip
